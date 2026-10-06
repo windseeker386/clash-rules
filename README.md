@@ -1,8 +1,6 @@
 # 个人 Clash / Mihomo 分流规则
 
 维护文件：`rules/custom-proxy.yaml`。修改并提交到 main 后，已配置的设备每小时拉取更新。
-
-现有规则保留本机原有的 redd、Javdb 关键词以及 instagram.com、threads.com、x.com 域名匹配。
 规则集只写匹配条件，不写策略名称。当前本机通过 RULE-SET 指向 `🚀 节点选择`。
 
 ## 新电脑启用
