@@ -1,0 +1,12 @@
+# Merge with existing global override settings.
+profile:
+  store-selected: true
+rule-providers:
+  personal-custom-proxy:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/windseeker386/clash-rules/main/rules/custom-proxy.yaml
+    path: ./rules/personal-custom-proxy.yaml
+    interval: 3600
+    proxy: "🚀 节点选择"
