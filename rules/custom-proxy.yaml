@@ -4,3 +4,22 @@ payload:
   - "DOMAIN-SUFFIX,instagram.com"
   - "DOMAIN-SUFFIX,threads.com"
   - "DOMAIN-SUFFIX,x.com"
+  - 'DOMAIN,ump.sh.atmb.gov:7001,DIRECT'
+  - 'DOMAIN-KEYWORD,steamstatic,DIRECT'
+  - 'DOMAIN,steamstatic,DIRECT'
+  - 'DOMAIN,steam,DIRECT'
+  - 'DOMAIN-KEYWORD,redd.it,🚀 节点选择'
+  - 'DOMAIN-KEYWORD,dl-alps-2.gcdn,🚀 节点选择'
+  - 'DOMAIN-KEYWORD,intervals,🚀 节点选择'
+  - 'DOMAIN-SUFFIX,https://www.naver.com/,🚀 节点选择'
+  - 'DOMAIN-KEYWORD,naver,🚀 节点选择'
+  - 'DOMAIN-SUFFIX,threads.com,🚀 节点选择'
+  - 'IP-CIDR,172.23.0.0/16,DIRECT'
+  - 'IP-CIDR,10.10.0.0/16,DIRECT'
+  - 'IP-CIDR,192.3.0.0/16,DIRECT'
+  - 'DOMAIN-KEYWORD,ncdn,🚀 节点选择'
+  - 'DOMAIN-KEYWORD,z-library,🚀 节点选择'
+  - 'DOMAIN-SUFFIX,garmin.com,🚀 节点选择'
+  - 'DOMAIN-SUFFIX,akamaized.net,📲 电报信息'
+  - 'DOMAIN-SUFFIX,instagram.com,🚀 节点选择'
+  - 'DOMAIN-SUFFIX,x.com,🚀 节点选择'
