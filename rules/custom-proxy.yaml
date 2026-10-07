@@ -4,6 +4,7 @@ payload:
   - 'DOMAIN,steamstatic,DIRECT'
   - 'DOMAIN,steam,DIRECT'
   - 'DOMAIN-KEYWORD,redd.it,🚀 节点选择'
+  - 'DOMAIN-KEYWORD,reddit,🚀 节点选择'
   - 'DOMAIN-KEYWORD,javdb,🚀 节点选择'
   - 'DOMAIN-KEYWORD,dl-alps-2.gcdn,🚀 节点选择'
   - 'DOMAIN-KEYWORD,intervals,🚀 节点选择'
