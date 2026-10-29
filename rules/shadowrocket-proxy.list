@@ -1,0 +1,15 @@
+# Shadowrocket personal PROXY rules
+DOMAIN-KEYWORD,redd.it
+DOMAIN-KEYWORD,reddit
+DOMAIN-KEYWORD,javdb
+DOMAIN-KEYWORD,dl-alps-2.gcdn
+DOMAIN-KEYWORD,intervals
+DOMAIN-SUFFIX,naver.com
+DOMAIN-KEYWORD,naver
+DOMAIN-SUFFIX,threads.com
+DOMAIN-KEYWORD,z-library
+DOMAIN-SUFFIX,garmin.com
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-KEYWORD,brew
