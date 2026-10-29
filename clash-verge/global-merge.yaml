@@ -1,4 +1,4 @@
-# Merge with existing global override settings.
+# One-time bootstrap: GitHub rule providers update independently after installation.
 profile:
   store-selected: true
 rule-providers:
@@ -8,5 +8,21 @@ rule-providers:
     format: yaml
     url: https://raw.githubusercontent.com/windseeker386/clash-rules/main/rules/custom-proxy.yaml
     path: ./rules/personal-custom-proxy.yaml
+    interval: 3600
+    proxy: "🚀 节点选择"
+  personal-direct:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/windseeker386/clash-rules/main/rules/clash-direct.yaml
+    path: ./rules/personal-direct.yaml
+    interval: 3600
+    proxy: "🚀 节点选择"
+  personal-steam-web:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/windseeker386/clash-rules/main/rules/clash-steam-web.yaml
+    path: ./rules/personal-steam-web.yaml
     interval: 3600
     proxy: "🚀 节点选择"
