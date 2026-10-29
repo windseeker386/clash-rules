@@ -16,10 +16,17 @@ function main(config, profileName) {
     "DOMAIN,store.steampowered.com," + target,
     "DOMAIN-SUFFIX,steampowered.com," + target
   ];
+  const customDirectRules = [
+    "DOMAIN,ump.sh.atmb.gov,DIRECT",
+    "IP-CIDR,172.23.0.0/16,DIRECT,no-resolve",
+    "IP-CIDR,10.10.0.0/16,DIRECT,no-resolve",
+    "IP-CIDR,192.3.0.0/16,DIRECT,no-resolve"
+  ];
   const personal = "RULE-SET,personal-custom-proxy," + target;
   const current = config.rules ?? [];
   config.rules = [
     ...steamRules,
+    ...customDirectRules,
     personal,
     ...current.filter(r => r !== personal && !steamRules.includes(r))
   ];
