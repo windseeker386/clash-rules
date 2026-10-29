@@ -1,0 +1,12 @@
+# Shadowrocket personal DIRECT rules
+DOMAIN,ump.sh.atmb.gov
+DOMAIN-KEYWORD,steamstatic
+DOMAIN,steamstatic
+DOMAIN,steam
+IP-CIDR,172.23.0.0/16
+IP-CIDR,10.10.0.0/16
+IP-CIDR,192.3.0.0/16
+DOMAIN-SUFFIX,synology.me
+DOMAIN-SUFFIX,synology.com
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,quickconnect.cn
