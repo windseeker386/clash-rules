@@ -1,34 +1,17 @@
-// Personal rules first, with Steam downloads DIRECT and storefront PROXY.
+// Stable one-time bootstrap. Edit remote YAML rule providers on GitHub thereafter.
 function main(config, profileName) {
   const target = "🚀 节点选择";
   const exists = (config["proxy-groups"] ?? []).some(g => g.name === target)
     || (config.proxies ?? []).some(p => p.name === target);
   if (!exists) throw new Error("Personal rules: missing proxy group " + target);
-
-  // Specific content-download hosts MUST precede the broader Steam web rules.
-  const steamRules = [
-    "DOMAIN,steamcdn-a.akamaihd.net,DIRECT",
-    "DOMAIN-SUFFIX,steamcontent.com,DIRECT",
-    "DOMAIN-SUFFIX,steamserver.net,DIRECT",
-    "DOMAIN-SUFFIX,cm.steampowered.com,DIRECT",
-    "DOMAIN-SUFFIX,steamusercontent.com,DIRECT",
-    "DOMAIN-SUFFIX,steamcommunity.com," + target,
-    "DOMAIN,store.steampowered.com," + target,
-    "DOMAIN-SUFFIX,steampowered.com," + target
+  const prepended = [
+    "RULE-SET,personal-direct,DIRECT",
+    "RULE-SET,personal-steam-web," + target,
+    "RULE-SET,personal-custom-proxy," + target
   ];
-  const customDirectRules = [
-    "DOMAIN,ump.sh.atmb.gov,DIRECT",
-    "IP-CIDR,172.23.0.0/16,DIRECT,no-resolve",
-    "IP-CIDR,10.10.0.0/16,DIRECT,no-resolve",
-    "IP-CIDR,192.3.0.0/16,DIRECT,no-resolve"
-  ];
-  const personal = "RULE-SET,personal-custom-proxy," + target;
-  const current = config.rules ?? [];
   config.rules = [
-    ...steamRules,
-    ...customDirectRules,
-    personal,
-    ...current.filter(r => r !== personal && !steamRules.includes(r))
+    ...prepended,
+    ...(config.rules ?? []).filter(r => !prepended.includes(r))
   ];
   return config;
 }
