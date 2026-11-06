@@ -1,0 +1,34 @@
+DOMAIN-KEYWORD,redd.it
+DOMAIN-KEYWORD,reddit
+DOMAIN-KEYWORD,javdb
+DOMAIN-KEYWORD,dl-alps-2.gcdn
+DOMAIN-KEYWORD,intervals
+DOMAIN-SUFFIX,naver.com
+DOMAIN-KEYWORD,naver
+DOMAIN-SUFFIX,threads.com
+DOMAIN-KEYWORD,z-library
+DOMAIN-SUFFIX,garmin.com
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-KEYWORD,brew
+
+# KakaoTalk / KakaoMap
+DOMAIN-SUFFIX,kakao.com
+DOMAIN-SUFFIX,kakaocdn.net
+# SOOP
+DOMAIN-SUFFIX,sooplive.com
+DOMAIN-SUFFIX,sooplive.co.kr
+DOMAIN-SUFFIX,afreecatv.com
+# WhatsApp
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,wa.me
+# Meta AI / Threads / Instagram
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,cdninstagram.com
+# NAVER / Papago / NAVER Dictionary
+DOMAIN-SUFFIX,pstatic.net
+# Shazam
+DOMAIN-SUFFIX,shazam.com
