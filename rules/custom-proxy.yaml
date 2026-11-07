@@ -33,3 +33,6 @@ payload:
   - 'DOMAIN-SUFFIX,pstatic.net'
   # Shazam
   - 'DOMAIN-SUFFIX,shazam.com'
+  # Podwise
+  - 'DOMAIN-SUFFIX,podwise.ai'
+  - 'DOMAIN-SUFFIX,podwise.xyz'
