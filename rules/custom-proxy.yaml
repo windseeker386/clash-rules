@@ -36,3 +36,4 @@ payload:
   # Podwise
   - 'DOMAIN-SUFFIX,podwise.ai'
   - 'DOMAIN-SUFFIX,podwise.xyz'
+  - 'DOMAIN-SUFFIX,anchor.fm'
